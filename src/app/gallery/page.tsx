@@ -10,7 +10,7 @@ const GalleryPage = () => {
     try {
       const stat = fs.statSync(path.join(galleryDirectory, file));
       return stat.isDirectory() && /^\d{4}$/.test(file);
-    } catch (error) {
+    } catch {
       return false;
     }
   });

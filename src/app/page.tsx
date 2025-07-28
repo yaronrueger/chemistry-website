@@ -242,7 +242,7 @@ export default function Home() {
                   Contact
                 </h2>
                 <p className="text-lg theme-text-secondary max-w-3xl mx-auto">
-                  Interested in collaboration? We'd love to hear from you!
+                  Interested in collaboration? We&apos;d love to hear from you!
                 </p>
               </div>
             </ScrollAnimation>

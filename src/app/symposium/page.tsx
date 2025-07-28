@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-import Link from 'next/link';
 import { Header } from '@/app/Header';
 import { Footer } from '@/app/Footer';
 

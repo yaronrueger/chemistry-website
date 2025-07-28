@@ -19,11 +19,11 @@ export const Header = () => {
           </div>
           <div className="hidden md:flex items-center">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a href="/#about" className="theme-text-primary hover:text-blue-600 px-3 py-2 transition-colors">About</a>
-              <a href="/#mission" className="theme-text-primary hover:text-blue-600 px-3 py-2 transition-colors">Mission</a>
-              <a href="/#symposium" className="theme-text-primary hover:text-blue-600 px-3 py-2 transition-colors">Symposium</a>
+              <Link href="/#about" className="theme-text-primary hover:text-blue-600 px-3 py-2 transition-colors">About</Link>
+              <Link href="/#mission" className="theme-text-primary hover:text-blue-600 px-3 py-2 transition-colors">Mission</Link>
+              <Link href="/#symposium" className="theme-text-primary hover:text-blue-600 px-3 py-2 transition-colors">Symposium</Link>
               <Link href="/gallery" className="theme-text-primary hover:text-blue-600 px-3 py-2 transition-colors">Gallery</Link>
-              <a href="/#contact" className="theme-text-primary hover:text-blue-600 px-3 py-2 transition-colors">Contact</a>
+              <Link href="/#contact" className="theme-text-primary hover:text-blue-600 px-3 py-2 transition-colors">Contact</Link>
             </div>
             <div className="ml-4">
               <ThemeToggle />
