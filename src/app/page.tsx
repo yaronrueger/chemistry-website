@@ -238,79 +238,39 @@ export default function Home() {
           <div className="max-w-7xl mx-auto">
             <ScrollAnimation animationType="fade-up" delay="delay-200">
               <div className="text-center mb-12">
-                <h2 className="text-3xl md:text-4xl font-bold theme-text-primary mb-4">
-                  Contact
-                </h2>
-                <p className="text-lg theme-text-secondary max-w-3xl mx-auto">
-                  Interested in collaboration? We&apos;d love to hear from you!
-                </p>
+                <h2 className="text-3xl md:text-4xl font-bold theme-text-primary mb-4">Contact</h2>
+                <p className="text-lg theme-text-secondary max-w-3xl mx-auto">Interested in collaboration? We&apos;d love to hear from you!</p>
               </div>
             </ScrollAnimation>
             <ScrollAnimation animationType="fade-up" delay="delay-300">
               <div className="max-w-lg mx-auto">
-                <div>
-                  <h3 className="text-xl font-semibold theme-text-primary mb-6">
-                    Contact Information
-                  </h3>
-                  <div className="space-y-6">
-                <div className="flex items-start">
-                  <svg className="w-6 h-6 text-blue-600 mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                  <div>
-                    <p className="font-medium theme-text-primary text-lg">Email</p>
-                    <p className="theme-text-secondary">contact@young-agers.com</p>
+                <h3 className="text-xl font-semibold theme-text-primary mb-6">Contact Information</h3>
+                <div className="space-y-6">
+                  <div className="flex items-start">
+                    <svg className="w-6 h-6 text-blue-600 mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                    </svg>
+                    <div>
+                      <p className="font-medium theme-text-primary text-lg">Email</p>
+                      <p className="theme-text-secondary">young-agers@outlook.com</p>
+                    </div>
                   </div>
-                </div>
-                <div className="flex items-start">
-                  <svg className="w-6 h-6 text-blue-600 mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                  <div>
-                    <p className="font-medium theme-text-primary text-lg">Location</p>
-                    <p className="theme-text-secondary">Berlin, Germany</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <svg className="w-6 h-6 text-blue-600 mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <div>
-                    <p className="font-medium theme-text-primary text-lg">Working Hours</p>
-                    <p className="theme-text-secondary">Mon-Fri: 9:00 AM - 6:00 PM</p>
+                  <div className="flex items-start">
+                    <svg className="w-6 h-6 text-blue-600 mr-4 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+                    <div>
+                      <p className="font-medium theme-text-primary text-lg">Location</p>
+                      <p className="theme-text-secondary">Berlin, Germany</p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="mt-12">
-                <h4 className="font-medium theme-text-primary mb-6 text-lg">Follow Us</h4>
-                <div className="flex space-x-6">
-                  <a href="#" className="text-gray-400 hover:text-blue-600 transition-colors transform hover:scale-110">
-                    <span className="sr-only">LinkedIn</span>
-                    <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                    </svg>
-                  </a>
-                  <a href="#" className="text-gray-400 hover:text-pink-600 transition-colors transform hover:scale-110">
-                    <span className="sr-only">Instagram</span>
-                    <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12.017 0C8.396 0 7.989.013 6.784.072 5.579.132 4.75.333 4.017.63c-.764.297-1.413.69-2.058 1.334C1.315 2.608.921 3.257.624 4.021.327 4.754.126 5.583.066 6.788.007 7.993 0 8.4 0 12.017c0 3.617.013 4.024.072 5.229.06 1.205.261 2.034.558 2.767.297.764.69 1.413 1.334 2.058.645.645 1.294 1.037 2.058 1.334.733.297 1.562.498 2.767.558 1.205.061 1.612.074 5.229.074 3.617 0 4.024-.013 5.229-.074 1.205-.06 2.034-.261 2.767-.558.764-.297 1.413-.69 2.058-1.334.645-.645 1.037-1.294 1.334-2.058.297-.733.498-1.562.558-2.767.061-1.205.074-1.612.074-5.229 0-3.617-.013-4.024-.074-5.229-.06-1.205-.261-2.034-.558-2.767-.297-.764-.69-1.413-1.334-2.058C19.392.921 18.743.529 17.979.232 17.246-.065 16.417-.266 15.212-.326 14.007-.387 13.6-.4 9.983-.4h4.034zm-.932 21.751c-3.416 0-3.823-.013-5.006-.072-1.066-.048-1.645-.22-2.032-.365-.511-.198-.876-.436-1.26-.82-.384-.384-.622-.749-.82-1.26-.145-.387-.317-.966-.365-2.032-.059-1.183-.072-1.59-.072-5.006 0-3.416.013-3.823.072-5.006.048-1.066.22-1.645.365-2.032.198-.511.436-.876.82-1.26.384-.384.749-.622 1.26-.82.387-.145.966-.317 2.032-.365 1.183-.059 1.59-.072 5.006-.072 3.416 0 3.823.013 5.006.072 1.066.048 1.645.22 2.032.365.511.198.876.436 1.26.82.384.384.622.749.82 1.26.145.387.317.966.365 2.032.059 1.183.072 1.59.072 5.006 0 3.416-.013 3.823-.072 5.006-.048 1.066-.22 1.645-.365 2.032-.198.511-.436.876-.82 1.26-.384.384-.749.622-1.26.82-.387.145-.966.317-2.032.365-1.183.059-1.59.072-5.006.072zm0-5.751c-3.183 0-5.75-2.567-5.75-5.75s2.567-5.75 5.75-5.75 5.75 2.567 5.75 5.75-2.567 5.75-5.75 5.75zm0-9.218c-1.914 0-3.468 1.554-3.468 3.468s1.554 3.468 3.468 3.468 3.468-1.554 3.468-3.468-1.554-3.468-3.468-3.468zm6.789-2.431c0-.747-.606-1.353-1.353-1.353s-1.353.606-1.353 1.353.606 1.353 1.353 1.353 1.353-.606 1.353-1.353z"/>
-                    </svg>
-                  </a>
-                  <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors transform hover:scale-110">
-                    <span className="sr-only">Twitter</span>
-                    <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
+            </ScrollAnimation>
           </div>
-        </ScrollAnimation>
-      </div>
-    </section>
-  </ScrollAnimation>
+        </section>
+      </ScrollAnimation>
 
     <Footer />
   </div>
