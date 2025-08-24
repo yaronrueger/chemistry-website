@@ -22,6 +22,22 @@ const SymposiumPage = () => {
       <Header />
       <main className="container mx-auto px-4 py-8 pt-24 flex-grow">
         <h2 className="text-4xl font-bold text-center mb-12 theme-text-primary">Symposium Programmes</h2>
+
+        <div className="max-w-4xl mx-auto mb-12">
+          <p className="text-lg text-center theme-text-secondary mb-6">
+            Welcome to the Symposium Programmes page! Here, you can explore the programmes from previous years and download the registration form for the upcoming Symposium 2025.
+          </p>
+          <div className="text-center">
+            <a
+              href="/Registration-Symposium-2025.pdf"
+              download
+              className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
+            >
+              Download Registration Form (PDF)
+            </a>
+          </div>
+        </div>
+
         <div className="max-w-4xl mx-auto">
           <div className="theme-bg-secondary shadow-md rounded-lg overflow-hidden">
             <table className="min-w-full leading-normal">

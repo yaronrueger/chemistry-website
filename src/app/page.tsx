@@ -189,6 +189,16 @@ export default function Home() {
                 <p className="text-lg theme-text-secondary max-w-3xl mx-auto mb-8">
                   You can find impressions of the last symposia in our <a href="/gallery" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline">gallery</a>.
                 </p>
+                <p className="text-lg theme-text-secondary max-w-3xl mx-auto mb-8">
+                  For more details about the upcoming symposium, download the registration form here: 
+                  <a
+              href="/Registration-Symposium-2025.pdf"
+              download
+              className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
+            >
+              Download Registration Form (PDF)
+            </a>
+                </p>
               </div>
             </ScrollAnimation>
             
