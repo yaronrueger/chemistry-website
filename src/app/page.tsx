@@ -10,18 +10,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="pt-24 pb-12 px-4 sm:px-6 lg:px-8 theme-bg-tertiary relative overflow-hidden">
-        {/* Background Logo */}
-        <div className="absolute inset-0 flex items-center justify-center opacity-10 dark:hidden">
-          <Image 
-            src="/logo_thumbnail.png" 
-            alt="Young Agers Background Logo" 
-            width={600} 
-            height={600}
-            className="object-contain"
-          />
-        </div>
-        
-        {/* Content */}
+      {/* Content */}
         <div className="max-w-7xl mx-auto text-center relative z-10">
           <h1 className="text-4xl md:text-6xl font-bold theme-text-primary mb-6">
             Young Agers
