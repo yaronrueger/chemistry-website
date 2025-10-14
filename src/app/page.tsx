@@ -178,15 +178,8 @@ export default function Home() {
                   You can find impressions of the last symposia in our <a href="/gallery" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline">gallery</a>.
                 </p>
                 <div className="text-lg theme-text-secondary max-w-3xl mx-auto mb-8 text-center">
-                  <p className="mb-4">For more details about the upcoming symposium, download the registration form and book of abstracts here:</p>
-                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a
-                      href="/Registration-Symposium-2025.pdf"
-                      download
-                      className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors"
-                    >
-                      Download Registration Form (PDF)
-                    </a>
+                  <p className="mb-4">The Book of Abstracts for the upcoming Young AGErs Symposium is now available for download. It contains all accepted abstracts and further information about the event.</p>
+                  <div className="flex justify-center">
                     <a
                       href="/Book of Abstracts.pdf"
                       download
