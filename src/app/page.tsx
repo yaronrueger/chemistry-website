@@ -178,16 +178,25 @@ export default function Home() {
                 <p className="text-lg theme-text-secondary max-w-3xl mx-auto mb-8">
                   You can find impressions of the last symposia in our <a href="/gallery" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline">gallery</a>.
                 </p>
-                <p className="text-lg theme-text-secondary max-w-3xl mx-auto mb-8">
-                  For more details about the upcoming symposium, download the registration form here: 
-                  <a
-              href="/Registration-Symposium-2025.pdf"
-              download
-              className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
-            >
-              Download Registration Form (PDF)
-            </a>
-                </p>
+                <div className="text-lg theme-text-secondary max-w-3xl mx-auto mb-8 text-center">
+                  <p className="mb-4">For more details about the upcoming symposium, download the registration form and book of abstracts here:</p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a
+                      href="/Registration-Symposium-2025.pdf"
+                      download
+                      className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors"
+                    >
+                      Download Registration Form (PDF)
+                    </a>
+                    <a
+                      href="/Book of Abstracts.pdf"
+                      download
+                      className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors"
+                    >
+                      Download Book of Abstracts (PDF)
+                    </a>
+                  </div>
+                </div>
               </div>
             </ScrollAnimation>
             
@@ -223,7 +232,7 @@ export default function Home() {
                   href="/symposium"
                   className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors"
                 >
-                  View Past Symposium Programmes
+                  View all Symposium Programmes
                 </a>
               </div>
             </ScrollAnimation>

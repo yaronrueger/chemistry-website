@@ -28,13 +28,22 @@ const SymposiumPage = () => {
             Welcome to the Symposium Programmes page! Here, you can explore the programmes from previous years and download the registration form for the upcoming Symposium 2025.
           </p>
           <div className="text-center">
-            <a
-              href="/Registration-Symposium-2025.pdf"
-              download
-              className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
-            >
-              Download Registration Form (PDF)
-            </a>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="/Registration-Symposium-2025.pdf"
+                download
+                className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
+              >
+                Download Registration Form (PDF)
+              </a>
+              <a
+                href="/Book of Abstracts.pdf"
+                download
+                className="inline-block px-6 py-3 bg-green-600 text-white font-semibold rounded-lg shadow-md hover:bg-green-700 transition duration-300"
+              >
+                Download Book of Abstracts (PDF)
+              </a>
+            </div>
           </div>
         </div>
 
