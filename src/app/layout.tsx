@@ -40,7 +40,6 @@ export default function RootLayout({
           themes={['light', 'dark']}
         >
           {children}
-          <SymposiumBanner />
         </ThemeProvider>
       </body>
     </html>

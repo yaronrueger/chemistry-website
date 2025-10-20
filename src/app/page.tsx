@@ -175,46 +175,11 @@ export default function Home() {
                   an informal setting.
                 </p>
                 <p className="text-lg theme-text-secondary max-w-3xl mx-auto mb-8">
-                  You can find impressions of the last symposia in our <a href="/gallery" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline">gallery</a>.
+                  The 8th YoungAGErs Symposium was held in Berlin, organised by <span className="font-semibold text-blue-600 dark:text-blue-400">Tatjana Rueger</span>, <span className="font-semibold text-blue-600 dark:text-blue-400">Kai Scholten</span>, and <span className="font-semibold text-blue-600 dark:text-blue-400">Leon Bork</span>.
                 </p>
-                <div className="text-lg theme-text-secondary max-w-3xl mx-auto mb-8 text-center">
-                  <p className="mb-4">The Book of Abstracts for the upcoming Young AGErs Symposium is now available for download. It contains all accepted abstracts and further information about the event.</p>
-                  <div className="flex justify-center">
-                    <a
-                      href="/Book of Abstracts.pdf"
-                      download
-                      className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors"
-                    >
-                      Download Book of Abstracts (PDF)
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </ScrollAnimation>
-            
-            {/* Upcoming Event Highlight */}
-            <ScrollAnimation animationType="fade-up" delay="delay-400">
-              <div className="theme-card-bg border-2 border-blue-400 dark:border-blue-600 rounded-lg shadow-xl p-8 mb-8 max-w-4xl mx-auto bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-950 dark:to-blue-900">
-                <h3 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">
-                  🎉 Join us for the 8th Young AGErs Symposium in Berlin! 🎉
-                </h3>
-                <p className="text-xl text-gray-700 dark:text-gray-200 mb-4">
-                  <strong>16th and 17th October 2025 in Berlin</strong>
+                <p className="text-lg theme-text-secondary max-w-3xl mx-auto mb-8">
+                  Browse our <a href="/gallery" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline font-semibold">photo gallery</a> to see impressions and highlights from past symposia, or explore the detailed programs and abstracts below to learn more about the content and structure of each event.
                 </p>
-                <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-                  This welcoming and accessible event is specially designed for early-career researchers 
-                  working on any aspect of the Maillard reaction. Whether you want to share your latest 
-                  findings, present your research plans or simply connect with other early-career scientists 
-                  in the field, this is the perfect opportunity!
-                </p>
-                <div className="grid md:grid-cols-2 gap-6 text-left">
-                  <div>
-                    <h4 className="font-semibold text-gray-800 dark:text-white mb-2">✨ Present your work and receive valuable feedback!</h4>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-800 dark:text-white mb-2">🤝 Meet and network with peers in a friendly, informal setting.</h4>
-                  </div>
-                </div>
               </div>
             </ScrollAnimation>
             
@@ -224,7 +189,7 @@ export default function Home() {
                   href="/symposium"
                   className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors"
                 >
-                  View all Symposium Programmes
+                  View Symposium Programs & Abstracts
                 </a>
               </div>
             </ScrollAnimation>

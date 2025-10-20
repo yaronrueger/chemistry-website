@@ -21,30 +21,12 @@ const SymposiumPage = () => {
     <div className="theme-bg-primary theme-text-primary min-h-screen flex flex-col">
       <Header />
       <main className="container mx-auto px-4 py-8 pt-24 flex-grow">
-        <h2 className="text-4xl font-bold text-center mb-12 theme-text-primary">Symposium Programmes</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 theme-text-primary">Symposium Programs</h2>
 
         <div className="max-w-4xl mx-auto mb-12">
           <p className="text-lg text-center theme-text-secondary mb-6">
-            Welcome to the Symposium Programmes page! Here, you can explore the programmes from previous years and download the registration form for the upcoming Symposium 2025.
+            Welcome to the Symposium Programs page! Here, you can explore the programs from previous years and download the registration form for the upcoming Symposium 2025.
           </p>
-          <div className="text-center">
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="/Registration-Symposium-2025.pdf"
-                download
-                className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
-              >
-                Download Registration Form (PDF)
-              </a>
-              <a
-                href="/Book of Abstracts.pdf"
-                download
-                className="inline-block px-6 py-3 bg-green-600 text-white font-semibold rounded-lg shadow-md hover:bg-green-700 transition duration-300"
-              >
-                Download Book of Abstracts (PDF)
-              </a>
-            </div>
-          </div>
         </div>
 
         <div className="max-w-4xl mx-auto">
@@ -56,28 +38,40 @@ const SymposiumPage = () => {
                     Year
                   </th>
                   <th className="px-5 py-3 border-b-2 theme-border theme-bg-accent text-left text-xs font-semibold theme-text-secondary uppercase tracking-wider">
-                    Programme
+                    Program
                   </th>
-                  <th className="px-5 py-3 border-b-2 theme-border theme-bg-accent"></th>
+                  <th className="px-5 py-3 border-b-2 theme-border theme-bg-accent text-left text-xs font-semibold theme-text-secondary uppercase tracking-wider">
+                    Book of Abstracts
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 {programmes.map(programme => (
                   <tr key={programme.fileName}>
                     <td className="px-5 py-5 border-b theme-border theme-bg-secondary text-sm">
-                      <p className="theme-text-primary whitespace-no-wrap">{programme.year}</p>
+                      <p className="theme-text-primary whitespace-nowrap">{programme.year}</p>
                     </td>
                     <td className="px-5 py-5 border-b theme-border theme-bg-secondary text-sm">
-                      <p className="theme-text-primary whitespace-no-wrap">{programme.fileName}</p>
-                    </td>
-                    <td className="px-5 py-5 border-b theme-border theme-bg-secondary text-sm text-right">
                       <a
                         href={programme.url}
                         download
                         className="theme-text-accent hover:opacity-80 font-semibold"
                       >
-                        Download
+                        Download Program (PDF)
                       </a>
+                    </td>
+                    <td className="px-5 py-5 border-b theme-border theme-bg-secondary text-sm text-right">
+                      {programme.year === '2025' ? (
+                        <a
+                          href="/Book_of_Abstracts_2025.pdf"
+                          download
+                          className="theme-text-accent hover:opacity-80 font-semibold"
+                        >
+                          Download Book of Abstracts (PDF)
+                        </a>
+                      ) : (
+                        <span className="theme-text-muted">—</span>
+                      )}
                     </td>
                   </tr>
                 ))}
